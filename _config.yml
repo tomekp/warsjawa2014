@@ -1,6 +1,6 @@
 locales:
   pl:
-    time_and_place: Warszawa, 12 Października 2013
+    time_and_place: Warszawa, 26-27 Września 2014
     time_left: do konferencji pozostało
 
     days: dni
@@ -12,7 +12,7 @@ locales:
     subscribe_button: Daj mi znać
 
   en:
-    time_and_place: Warsaw, October 12th 2013
+    time_and_place: Warsaw, September 26-27th 2014
     time_left: conference starts in
 
     days: days
