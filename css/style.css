@@ -1,0 +1,144 @@
+/*neon font load*/
+@font-face {
+    font-family: 'Neon club music';
+    src: url('../font/NEONCLUBMUSIC.otf');
+}
+
+body {
+    font-family:'Neon club music', sans-serif;
+    color: #ffffff;
+    background: #000 url(../img/bg2.png)
+}
+
+i.off {
+    font-style: normal;
+    color: #2C2C2C;
+    text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*disable test decoration from links*/
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 120px;
+    padding: 90px 0 20px 0;
+}
+
+h1 i {
+    font-style: normal;
+}
+
+/*welcome message*/
+p{
+    font-size: 32px;
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+/*used for second ligne in welcome message*/
+p > span{
+    margin-top: 10px;
+    font-size: 22px;}
+
+/* SKINS SELECTORS */
+
+.skins{font-size: 14px;
+    text-transform: uppercase;}
+
+.blue {
+    text-shadow: 0 0 5px #02AEFF, 0 0 10px #02AEFF, 0 0 15px #02AEFF, 0 0 20px #02AEFF, 0 0 25px #02AEFF, 0 0 30px #02AEFF, 0 0 35px #02AEFF, 0 0 40px #02AEFF;
+}
+
+.blue input[type="submit"]{border: 1px solid #02AEFF;background:#02AEFF;}
+
+.blue input[type="text"] ,.blue textarea{
+    box-shadow: 0 0 5px #02AEFF, 0 0 10px #02AEFF, 0 0 20px #02AEFF, 0 0 30px
+}
+
+.blue input[type="text"]:focus,.blue textarea:focus{
+    box-shadow: 0 0 10px #02AEFF, 0 0 20px #02AEFF, 0 0 30px #02AEFF, 0 0 40px !important;
+}
+
+.blue input[type="text"]:hover,.blue textarea:hover{
+    box-shadow: 0 0 5px #02AEFF, 0 0 10px #02AEFF, 0 0 20px #02AEFF, 0 0 30px
+}
+/*blue social png*/
+.blue #s-google{background-image: url(../img/blue/google-icon.png);}
+.blue #s-facebook{background-image: url(../img/blue/facebook-icon.png);}
+.blue #s-twitter{background-image: url(../img/blue/twitter-icon.png);}
+
+/* SOCIAL */
+#social a {
+    /*margin: -37px 8px 25px 5px;*/
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-position: 0px -35px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+#social > a:active {
+    margin: -37px 8px 25px 5px;
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    background-position: -1px 10px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+
+/* styles for count down numbers*/
+.numbers {
+    width: 192px;
+    height: 105px;
+    padding-top: 84px;
+    font-size: 40px;
+    background: url(../img/blue/circle.png) no-repeat;
+}
+
+/* styles for text under numbers*/
+.numbers span {
+    font-size:10px;
+    text-transform:uppercase;
+    display:block;
+    margin:0 0 0 0
+}
+
+input[type="text"],textarea{
+    background:#fff;
+    width:422px;
+    font-size:17px;
+    border:0;
+    border-radius:4px;
+    padding-left: 15px;
+}
+
+input[type="text"]{
+    height:30px;
+}
+
+
+input[type="submit"]{
+    color: white;
+    cursor:pointer
+}
+
+#show-hide-contact{
+    position: absolute;
+    margin-top: 130px;
+}
+
+#mail-submit{
+    width:92px;
+    height:28px;
+    margin-left:-106px;
+    margin-top:-10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
