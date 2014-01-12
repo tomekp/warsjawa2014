@@ -10,6 +10,8 @@ locales:
 
     subscribe_email: Podaj adres email, aby być na bieżąco
     subscribe_button: Daj mi znać
+    prev_edition: Zobacz poprzednią edycję
+
 
   en:
     time_and_place: Warsaw, September 26-27th 2014
@@ -22,3 +24,4 @@ locales:
 
     subscribe_email: Enter e-mail address to be updated
     subscribe_button: Let me know
+    prev_edition: See previous edition
