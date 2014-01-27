@@ -11,7 +11,8 @@ locales:
     subscribe_email: Podaj adres email, aby być na bieżąco
     subscribe_button: Daj mi znać
     prev_edition: Zobacz poprzednią edycję
-
+    join_sponsors: Jeśli chcesz dołączyć do grona sponsorów Warsjawy - napisz do nas
+    served_by: Warsjawe serwują
 
   en:
     time_and_place: Warsaw, September 26-27th 2014
@@ -25,3 +26,5 @@ locales:
     subscribe_email: Enter e-mail address to be updated
     subscribe_button: Let me know
     prev_edition: See previous edition
+    join_sponsors: If you'd like to join Warsjawa sponsors, contact us
+    served_by: Warsjawa is served by
