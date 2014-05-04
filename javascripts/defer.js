@@ -17,28 +17,40 @@
 
     getScript('javascripts/vendor/require.js', function () {
         require(['javascripts/vendor/jquery'], function () {
+            function loadMap() {
+                var mapSection = $('section#map');
+                var mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.740577996301!2d20.982062799999987!3d52.21176169999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccba6c9e2719%3A0xa614e74a0b76eff1!2sStefana+Banacha+2!5e0!3m2!1spl!2spl!4v1398360409911';
+                mapSection.append('<iframe src="' + mapUrl + '"></iframe>');
+                mapSection.addClass('opened');
+            }
+
+            function loadMapIfNeeded() {
+                var mapSection = $('section#map');
+                if (mapSection.find('iframe').length === 0) {
+                    var currentScreenSize = $('#media-query-breakpoints div:visible').first().data('size');
+                    if (currentScreenSize === 'medium' || currentScreenSize === 'large') {
+                        loadMap();
+                    }
+                }
+            }
+
+            loadMapIfNeeded();
+            $(window).resize(function () {
+                loadMapIfNeeded();
+            });
+
             $('section#header .place').click(function (event) {
                 event.preventDefault();
-
-                var mapIframe = $('section#map iframe')[0];
-                if (mapIframe !== undefined) {
-                    return;
+                var mapSection = $('section#map');
+                if (mapSection.find('iframe').length === 0) {
+                    loadMap();
                 }
-
-                var mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.740577996301!2d20.982062799999987!3d52.21176169999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccba6c9e2719%3A0xa614e74a0b76eff1!2sStefana+Banacha+2!5e0!3m2!1spl!2spl!4v1398360409911';
-                $('section#map').append('<iframe src="' + mapUrl + '"></iframe>');
-                $('section#map iframe').animate({'top': '0'}, 600);
-                $('section#map').animate({'height': $('section#map iframe').css('height')}, 600);
             });
         });
 
         require(['javascripts/vendor/jquery', 'javascripts/foundation/foundation', 'javascripts/foundation/foundation.tooltip'], function () {
-            console.log('OHAI');
             $(document).foundation();
-
         });
-
-
     });
 
 //    getScript('javascripts/vendor/jquery.js', function () {
