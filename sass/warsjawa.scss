@@ -108,63 +108,23 @@ section#enroll {
 
 section#speakers {
   @extend .beige-section;
-  position: relative;
   padding-bottom: 0;
 
   ul {
     margin: 0 -0.95rem;
     li {
       padding: 0;
+      position: relative;
 
-      -webkit-transition: padding-bottom 0.4s ease-in-out;
-      -moz-transition: padding-bottom 0.4s ease-in-out;
-      -ms-transition: padding-bottom 0.4s ease-in-out;
-      -o-transition: padding-bottom 0.4s ease-in-out;
-
-      .speaker-container {
-        position: relative;
-
-        span {
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-          background: rgba(#000000, 0.5);
-          color: #ffffff;
-          padding: 0.4rem;
-          line-height: 1;
-
-          opacity: 1;
-          -webkit-transition: opacity 0.4s ease-in-out;
-          -moz-transition: opacity 0.4s ease-in-out;
-          -ms-transition: opacity 0.4s ease-in-out;
-          -o-transition: opacity 0.4s ease-in-out;
-          //          -webkit-transform: translateZ(0);
-        }
+      span {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(#000000, 0.5);
+        color: #ffffff;
+        padding: 0.4rem;
+        line-height: 1;
       }
-
-      &.selected {
-        span {
-          opacity: 0;
-        }
-      }
-    }
-  }
-
-  .floating-speaker-details {
-    position: absolute;
-    opacity: 0;
-
-    background: #ffffff;
-    width: 100%;
-    padding: 2rem;
-
-    -webkit-transition: opacity 0.6s ease-out;
-    -moz-transition: opacity 0.6s ease-out;
-    -ms-transition: opacity 0.6s ease-out;
-    -o-transition: opacity 0.6s ease-out;
-
-    &.visible {
-      opacity: 1;
     }
   }
 }
