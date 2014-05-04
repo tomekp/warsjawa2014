@@ -1,0 +1,235 @@
+@import "normalize";
+@import "warsjawa-globals";
+@import "warsjawa-fonts";
+@import "foundation/settings";
+@import "foundation";
+@import "csshake/csshake";
+
+.blue-section {
+  background: $warsjawa-blue;
+  &, h1, h2, h3, h4, h5, h6 {
+    color: $warsjawa-beige;
+  }
+
+  @media #{$medium-up} {
+    background: red;
+  }
+}
+
+.beige-section {
+  background: $warsjawa-beige;
+  &, h1, h2, h3, h4, h5, h6 {
+    color: $warsjawa-blue;
+  }
+}
+
+section {
+  padding: 2rem 0 2rem 0;
+}
+
+section#header {
+  @extend .blue-section;
+
+  //  span.dot {
+  //    font-size: 2*$h1-font-size*1.4;
+  //    line-height: 2*$h1-font-size*1.4;
+  //    vertical-align: text-bottom;
+  //    font-family: $font-museo-500;
+  //    font-weight: 500;
+  //  }
+
+  h1 {
+    display: inline-block;
+    font-family: $font-museo-500;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  hr {
+    border-width: 2px 0 0;
+    margin: 0 auto 2rem auto;
+    width: 2.5*$h1-font-size;
+  }
+
+  img {
+    width: auto;
+    height: $h1-font-size;
+    margin: 1rem 0 2rem 0;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+
+  span {
+    display: block;
+  }
+}
+
+section#map {
+  position: relative;
+  padding: 0;
+  background: $warsjawa-gray;
+
+  iframe {
+    $map-height: 10rem;
+    position: absolute;
+    top: -$map-height;
+    width: 100%;
+    height: $map-height;
+    border: 0;
+  }
+}
+
+section#hello-jar {
+  @extend .blue-section;
+
+  span {
+    display: block;
+  }
+}
+
+section#about {
+  @extend .beige-section;
+
+  span {
+    display: block;
+  }
+}
+
+section#enroll {
+  @extend .blue-section;
+
+  span {
+    display: block;
+  }
+}
+
+section#speakers {
+  @extend .beige-section;
+  position: relative;
+  padding-bottom: 0;
+
+  ul {
+    margin: 0 -0.95rem;
+    li {
+      padding: 0;
+
+      -webkit-transition: padding-bottom 0.4s ease-in-out;
+      -moz-transition: padding-bottom 0.4s ease-in-out;
+      -ms-transition: padding-bottom 0.4s ease-in-out;
+      -o-transition: padding-bottom 0.4s ease-in-out;
+
+      .speaker-container {
+        position: relative;
+
+        span {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background: rgba(#000000, 0.5);
+          color: #ffffff;
+          padding: 0.4rem;
+          line-height: 1;
+
+          opacity: 1;
+          -webkit-transition: opacity 0.4s ease-in-out;
+          -moz-transition: opacity 0.4s ease-in-out;
+          -ms-transition: opacity 0.4s ease-in-out;
+          -o-transition: opacity 0.4s ease-in-out;
+          //          -webkit-transform: translateZ(0);
+        }
+      }
+
+      &.selected {
+        span {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  .floating-speaker-details {
+    position: absolute;
+    opacity: 0;
+
+    background: #ffffff;
+    width: 100%;
+    padding: 2rem;
+
+    -webkit-transition: opacity 0.6s ease-out;
+    -moz-transition: opacity 0.6s ease-out;
+    -ms-transition: opacity 0.6s ease-out;
+    -o-transition: opacity 0.6s ease-out;
+
+    &.visible {
+      opacity: 1;
+    }
+  }
+}
+
+section#agenda {
+  @extend .blue-section;
+  padding-bottom: 6rem;
+}
+
+section#sponsors {
+  @extend .beige-section;
+  padding-bottom: 6rem;
+}
+
+section#contact {
+  @extend .blue-section;
+
+  .duke-in-the-jar {
+    $jar-height: 4rem;
+
+    position: relative;
+    height: $jar-height;
+    margin: 1rem 0 2rem 0;
+
+    img {
+      position: absolute;
+      width: auto;
+      height: 4rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto 0 auto;
+    }
+
+    .shaking-duke {
+      @extend .shake;
+      @extend .shake-constant;
+    }
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+
+    &.social-icons {
+      font-size: 4rem;
+      a {
+        color: #ffffff;
+      }
+    }
+
+    li {
+      color: $warsjawa-gray;
+
+    }
+  }
+}
+
+#media-query-breakpoints {
+  .small {
+    @extend .show-for-small-only;
+  }
+  .medium {
+    @extend .show-for-medium-only;
+  }
+  .large {
+    @extend .show-for-large-up;
+  }
+}

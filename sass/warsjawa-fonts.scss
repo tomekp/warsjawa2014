@@ -1,0 +1,19 @@
+@import "foundation/functions";
+
+@import "../fonts/museo-300/stylesheet.css";
+@import "../fonts/museo-500/stylesheet.css";
+@import "../fonts/museo-700/stylesheet.css";
+@import "../fonts/museo-sans-500/stylesheet.css";
+@import "../fonts/foundation-icons/foundation-icons.css";
+
+$font-museo-300: 'Museo300Regular';
+$font-museo-500: 'Museo500Regular';
+$font-museo-700: 'Museo700Regular';
+$font-museo-sans-500: 'museo_sans500';
+
+$h1-font-size: rem-calc(110);
+$h2-font-size: rem-calc(49);
+$h3-font-size: rem-calc(37);
+$h4-font-size: rem-calc(28);
+$h5-font-size: rem-calc(21);
+$h6-font-size: rem-calc(16);
