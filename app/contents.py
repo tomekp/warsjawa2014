@@ -11,59 +11,59 @@ def update_variables(variables):
         },
         {
             'name': 'Aleksander Piotrowski',
-            'picture_url': 'static/images/speakers/AleksanderPiotrowski.jpg'
+            'picture_url': 'static/images/speakers/aleksander-piotrowski-320x320.jpg'
         },
         {
             'name': 'Andrzej Goławski',
-            'picture_url': 'static/images/speakers/AndrzejGolawski.jpg'
+            'picture_url': 'static/images/speakers/andrzej-golawski-320x320.jpg'
         },
         {
             'name': 'Bartek Zdanowski',
-            'picture_url': 'static/images/speakers/BartekZdanowski.jpg'
+            'picture_url': 'static/images/speakers/bartek-zdanowski-320x320.jpg'
         },
         {
             'name': 'Grzegorz Kubiak',
-            'picture_url': 'static/images/speakers/GrzegorzKubiak.jpg'
+            'picture_url': 'static/images/speakers/grzegorz-kubiak-320x320.jpg'
         },
         {
             'name': 'Jacek Laskowski',
-            'picture_url': 'static/images/speakers/JacekLaskowski.jpg'
+            'picture_url': 'static/images/speakers/jacek-laskowski-320x320.jpg'
         },
         {
             'name': 'Jakub Nabrdalik',
-            'picture_url': 'static/images/speakers/JakubNabrdalik.jpg'
+            'picture_url': 'static/images/speakers/jakub-nabrdalik-320x320.jpg'
         },
         {
             'name': 'Justyna Sadło',
-            'picture_url': 'static/images/speakers/JustynaSadlo.jpg'
+            'picture_url': 'static/images/speakers/justyna-sadlo-320x320.jpg'
         },
         {
             'name': 'Michał Niczyporuk',
-            'picture_url': 'static/images/speakers/MichalNiczyporuk.jpg'
+            'picture_url': 'static/images/speakers/michal-niczyporuk-320x320.jpg'
         },
         {
             'name': 'Michał Tajchert',
-            'picture_url': 'static/images/speakers/MichalTajchert.jpg'
+            'picture_url': 'static/images/speakers/michal-tajchert-320x320.jpg'
         },
         {
             'name': 'Ola Sitarska',
-            'picture_url': 'static/images/speakers/OlaSitarska.jpg'
+            'picture_url': 'static/images/speakers/ola-sitarska-320x320.jpg'
         },
         {
             'name': 'Piotr Betkier',
-            'picture_url': 'static/images/speakers/PiotrBetkier.jpg'
+            'picture_url': 'static/images/speakers/piotr-betkier-320x320.jpg'
         },
         {
             'name': 'Piotr Szotkowski',
-            'picture_url': 'static/images/speakers/PiotrSzotkowski.jpg'
+            'picture_url': 'static/images/speakers/piotr-szotkowski-320x320.jpg'
         },
         {
             'name': 'Przemek Lewandowski',
-            'picture_url': 'static/images/speakers/PrzemekLewandowski.jpg'
+            'picture_url': 'static/images/speakers/przemek-lewandowski-320x320.jpg'
         },
         {
             'name': 'Tomasz Szymanski',
-            'picture_url': 'static/images/speakers/TomaszSzymanski.jpg'
+            'picture_url': 'static/images/speakers/tomasz-szymanski-320x320.jpg'
         }
     ]
 
