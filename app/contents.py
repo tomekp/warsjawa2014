@@ -8,6 +8,62 @@ def update_variables(variables):
         {
             'name': 'Venkat Subramaniam',
             'picture_url': 'static/images/speakers/venkat-subramaniam-320x320.jpg'
+        },
+        {
+            'name': 'Aleksander Piotrowski',
+            'picture_url': 'static/images/speakers/AleksanderPiotrowski.jpg'
+        },
+        {
+            'name': 'Andrzej Goławski',
+            'picture_url': 'static/images/speakers/AndrzejGolawski.jpg'
+        },
+        {
+            'name': 'Bartek Zdanowski',
+            'picture_url': 'static/images/speakers/BartekZdanowski.jpg'
+        },
+        {
+            'name': 'Grzegorz Kubiak',
+            'picture_url': 'static/images/speakers/GrzegorzKubiak.jpg'
+        },
+        {
+            'name': 'Jacek Laskowski',
+            'picture_url': 'static/images/speakers/JacekLaskowski.jpg'
+        },
+        {
+            'name': 'Jakub Nabrdalik',
+            'picture_url': 'static/images/speakers/JakubNabrdalik.jpg'
+        },
+        {
+            'name': 'Justyna Sadło',
+            'picture_url': 'static/images/speakers/JustynaSadlo.jpg'
+        },
+        {
+            'name': 'Michał Niczyporuk',
+            'picture_url': 'static/images/speakers/MichalNiczyporuk.jpg'
+        },
+        {
+            'name': 'Michał Tajchert',
+            'picture_url': 'static/images/speakers/MichalTajchert.jpg'
+        },
+        {
+            'name': 'Ola Sitarska',
+            'picture_url': 'static/images/speakers/OlaSitarska.jpg'
+        },
+        {
+            'name': 'Piotr Betkier',
+            'picture_url': 'static/images/speakers/PiotrBetkier.jpg'
+        },
+        {
+            'name': 'Piotr Szotkowski',
+            'picture_url': 'static/images/speakers/PiotrSzotkowski.jpg'
+        },
+        {
+            'name': 'Przemek Lewandowski',
+            'picture_url': 'static/images/speakers/PrzemekLewandowski.jpg'
+        },
+        {
+            'name': 'Tomasz Szymanski',
+            'picture_url': 'static/images/speakers/TomaszSzymanski.jpg'
         }
     ]
 
