@@ -1,0 +1,23 @@
+tracks:
+  - name: java
+    description: Clean Java frameworks and langoute
+    tracks:
+      - name        : Performance
+        description : Workshop description
+        slot        : 0
+        timebox     : 0
+        room        : 3180
+        mentors  :
+          - email: tomek@nurkiewicz.com
+          - email: tomeksfirend@friend.com
+      - name        : Java 8
+        description : Workshop description
+        slot        : 1
+        timebox     : 0
+        room        : 3180
+        mentors  :
+          - email: performance@guru.com
+  - name: scala
+    description: Scala programming language and it's ecosystem
+  - name: ios
+    description: For Apple Developers
